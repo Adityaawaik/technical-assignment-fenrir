@@ -144,7 +144,7 @@ const Sidebar = () => {
                 setIsBurgerMenuOpen(false),
                 navigation("/dashboard");
             }}
-            className={` flex items-center gap-2  p-4 text-[2vmin] cursor-pointer rounded-[3rem] mt-4 mb-4   ml-4 mr-4 ${
+            className={` flex items-center gap-2 max-[650px]:text-[15px]  p-4 text-[2vmin] cursor-pointer rounded-[3rem] mt-4 mb-4   ml-4 mr-4 ${
               activeTab === "Dashboard"
                 ? "bg-[#0080803d]  text-[#008080]"
                 : "bg-white"
@@ -156,7 +156,7 @@ const Sidebar = () => {
             onClick={() => {
               setActiveTab("Projects"), setIsBurgerMenuOpen(false);
             }}
-            className={` flex items-center gap-2  p-4 text-[2vmin] cursor-pointer rounded-[3rem] mt-4 mb-4  ml-4 mr-4  ${
+            className={` flex items-center gap-2  p-4 text-[2vmin] max-[650px]:text-[15px]  cursor-pointer rounded-[3rem] mt-4 mb-4  ml-4 mr-4  ${
               activeTab === "Projects"
                 ? "bg-[#0080803d] text-[#008080]"
                 : "bg-white"
@@ -170,7 +170,7 @@ const Sidebar = () => {
                 setIsBurgerMenuOpen(false),
                 navigation("/scans");
             }}
-            className={` flex items-center gap-2  p-4 text-[2vmin] cursor-pointer rounded-[3rem] mt-4 mb-4  ml-4 mr-4  ${
+            className={` flex items-center gap-2 max-[650px]:text-[15px]  p-4 text-[2vmin] cursor-pointer rounded-[3rem] mt-4 mb-4  ml-4 mr-4  ${
               activeTab === "Scans"
                 ? "bg-[#0080803d]  text-[#008080]"
                 : "bg-white"
@@ -182,7 +182,7 @@ const Sidebar = () => {
             onClick={() => {
               setActiveTab("Schedule"), setIsBurgerMenuOpen(false);
             }}
-            className={`flex items-center gap-2  p-4 text-[2vmin] cursor-pointer rounded-[3rem] mt-4 mb-4  ml-4 mr-4  ${
+            className={`flex items-center gap-2 max-[650px]:text-[15px]  p-4 text-[2vmin] cursor-pointer rounded-[3rem] mt-4 mb-4  ml-4 mr-4  ${
               activeTab === "Schedule"
                 ? "bg-[#0080803d]  text-[#008080]"
                 : "bg-white"
@@ -195,7 +195,7 @@ const Sidebar = () => {
             onClick={() => {
               setActiveTab("Notification"), setIsBurgerMenuOpen(false);
             }}
-            className={`flex items-center gap-2  p-4 text-[2vmin] cursor-pointer rounded-[3rem] mt-4 mb-4  ml-4 mr-4  ${
+            className={`flex items-center gap-2  max-[650px]:text-[15px] p-4 text-[2vmin] cursor-pointer rounded-[3rem] mt-4 mb-4  ml-4 mr-4  ${
               activeTab === "Notification"
                 ? "bg-[#0080803d]  text-[#008080]"
                 : "bg-white"
@@ -207,7 +207,7 @@ const Sidebar = () => {
             onClick={() => {
               setActiveTab("Settings"), setIsBurgerMenuOpen(false);
             }}
-            className={`flex items-center gap-2  p-4 text-[2vmin] cursor-pointer rounded-[3rem] mt-4 mb-4   ml-4 mr-4 ${
+            className={`flex items-center gap-2 max-[650px]:text-[15px]  p-4 text-[2vmin] cursor-pointer rounded-[3rem] mt-4 mb-4   ml-4 mr-4 ${
               activeTab === "Settings"
                 ? "bg-[#0080803d]  text-[#008080]"
                 : "bg-white"
@@ -219,7 +219,7 @@ const Sidebar = () => {
             onClick={() => {
               setActiveTab("Support"), setIsBurgerMenuOpen(false);
             }}
-            className={`flex items-center gap-2  p-4 text-[2vmin] cursor-pointer rounded-[3rem] mt-4 mb-4 ml-4 mr-4 ${
+            className={`flex items-center gap-2 max-[650px]:text-[15px] p-4 text-[2vmin] cursor-pointer rounded-[3rem] mt-4 mb-4 ml-4 mr-4 ${
               activeTab === "Support"
                 ? "bg-[#0080803d]  text-[#008080]"
                 : "bg-white"
