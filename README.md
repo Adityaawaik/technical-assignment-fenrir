@@ -5,6 +5,8 @@
 Features : 
 1. Featured with dark and light theme 
 2. Responsive for all devices
+3. Functional Dashboard and Scans section
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
