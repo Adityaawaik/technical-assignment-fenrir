@@ -12,23 +12,24 @@ const SignUpPage = () => {
     navigation("/dashboard");
   };
   return (
-    <div className="signup-page-form w-[40%] max-[950px]:w-[80%] max-[450px]:w-full bg-[#8080801f] p-6 rounded-md">
+    <div className="signup-page-form relative z-50 w-[40%] max-[950px]:w-[80%] max-[450px]:w-full bg-[#8080801f] p-6 rounded-md">
       <h2 className="font-semibold text-2xl text-center mb-2">Sign up</h2>
 
       <p className="text-center mb-6 text-sm">
         Already Have an Account?
-        <a className="text-teal-500 underline" href="/">
+        <a href="/" className="text-teal-500 underline">
           Log in
         </a>
       </p>
 
-      <form className="w-full">
+      <form className="w-full" onSubmit={navigateToDashboard}>
         <div className="mb-4">
           <input
             className="border border-gray-400 p-3 rounded-md w-full focus:border-teal-500 outline-none"
             type="text"
-            placeholder="First Name*"
-            required
+            name=""
+            placeholder="First Name"
+            id=""
           />
         </div>
 
@@ -74,7 +75,6 @@ const SignUpPage = () => {
         </div>
 
         <button
-          onClick={navigateToDashboard}
           type="submit"
           className="w-full bg-teal-500 text-white p-3 rounded-3xl hover:bg-teal-600 transition duration-200"
         >
