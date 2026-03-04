@@ -15,8 +15,8 @@ const LiveScan = () => {
     >
       <LiveScanHeader />
       <ScanActiveLog />
-      <div className=" flex justify-center rounded-lg bg-[#80808012] max-[800px]:flex-col ">
-        <div className="scan-active-header mt-4 mb-4 w-[50%] bg-white shadow-[0px_0px_1px_0px_black] rounded-lg  flex gap-4 ml-4 mr-4 max-[800px]:w-[95%] ">
+      <div className=" flex justify-center rounded-lg   bg-[#80808012] max-[800px]:flex-col max-[800px]:p-4  ">
+        <div className="scan-active-header mt-4 mr-4 w-[50%] bg-white shadow-[0px_0px_1px_0px_black] rounded-lg  flex gap-4 max-[800px]:w-full max-[800px]:mt-0 max-[800px]:mr-0">
           {isScanningDetails === "Active Log" ? (
             <AcitveLogContent />
           ) : (
