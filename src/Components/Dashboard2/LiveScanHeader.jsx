@@ -23,7 +23,7 @@ const LiveScanHeader = () => {
             <div className="green-dot w-2 h-2 bg-teal-500 rounded-[50%]"></div>
             <p>Live Scan Console</p>
           </div>
-          <div className="running-section">
+          <div className={`running-section max-[450px]:mb-4`}>
             <p className="flex items-center gap-1 p-1 bg-gray-200 w-30 rounded-2xl justify-center">
               <LuClock12 /> Running
             </p>
